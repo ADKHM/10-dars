@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 10vh;
+    background-color: black;
+}
+header{
+    height: 82px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+.language{
+    display: flex;
+    gap: 7px;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: inter;
+    color: white;
+}
+.headichi{
+    gap: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play{
+    width: 192px;
+    height: 82px;
+    background-color: rgb(241, 169, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: inter;
+}
+.hero{
+    height: 44px;
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+   
+}
+nav{
+    display: flex;
+    gap: 117px;
+    padding-left: 285px;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: inter;
+}
+.hero2{
+    height: 797px;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202404/0504/106f7c82ac1f3990a88e25532cac35e7a3a024039d2117b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.device{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 349px;
+}
+.pc{
+    width: 235px;
+    height: 75px;
+    background-color: rgb(241, 169, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.console{
+    width: 235px;
+    height: 73px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.erangel{
+position: absolute;
+width: 966px;
+height: 202px;
+left: 180px;
+top: 585px;
+border-radius: 10px;
+background: rgba(241, 169, 0, 0.33);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.reagn{
+    justify-content: center;
+}
+.h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    padding-top: 20px;
+}
+.image{
+    padding-top: 20px;
+}
+footer{
+    height: 101px;
+}
